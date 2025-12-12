@@ -43,9 +43,15 @@
 
 a=int(input("Enter the range value a:"))
 b=int(input("Enter the range value b:"))
-count=0
-print("The natural numbers are: ")
+# count=0
+# print("The natural numbers are: ")
+# for i in range(a,b):
+#     print(i)
+#     count=count+i
+# print("Sum of Natural Numbers are: ",count)
+
 for i in range(a,b):
-    print(i)
-    count=count+i
-print("Sum of Natural Numbers are: ",count)
+    print()
+    for j in range(a,b):
+        
+        print("   ",i,"*",j,"=",i*j,end="")
